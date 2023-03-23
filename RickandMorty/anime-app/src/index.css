@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+
+body {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Wallpaper-HD-Rick-and-Morty-Cartoon.jpg");
+}
+
+
+
+
+
+.title-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
